@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora a atualizar repositórios.
 
-<a href= "https://larissacoutoferreira.github.io/html-css/exercicios/001/index.html" target="_blank">Executar o exercício 001 </a>
+<a href= "https://larissacoutoferreira.github.io/html-css/exercicios/ex001/index.html" target="_blank">Executar o exercício 001 </a>
