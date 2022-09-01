@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /* SEM SHORTHAND, O DE BAIXO É A SHORTHAND DE BACKGROUND
+            COLOR > IMAGE > POSITION > REPEAT > [SIZE] > ATTACHMENT|
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
 
+
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +35,10 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique nisi quos laboriosam itaque. Doloremque aliquam et similique culpa perferendis, alias enim corrupti non. Corporis consequuntur officiis quod eveniet minus? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga similique, enim ducimus molestiae optio impedit animi deleniti nobis quod facere nisi placeat nam. Rerum quidem, aliquid at molestias suscipit labore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis enim dolor harum hic, quidem tenetur odio sint consequatur ut reprehenderit vero quo officia rem, praesentium nemo perspiciatis itaque, dolorum dolores?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ab accusamus aut dicta accusantium nemo, corrupti enim provident, inventore nihil deserunt architecto molestiae vero aliquam totam dolores excepturi. Maiores, optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto commodi soluta magnam vel facere nobis libero, quas doloribus aliquam, dolore culpa nesciunt illo nisi, perspiciatis inventore? Quos, recusandae officia? Aliquid!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, iusto beatae! Neque quasi, ipsum quam saepe repellat nihil voluptatem obcaecati eum corporis optio rerum doloribus. Veniam, modi. Aperiam, vel temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias minima animi distinctio earum, sint blanditiis tempora nulla optio corporis deleniti, voluptatem enim a quibusdam reprehenderit eos corrupti eaque magni libero.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit sed molestias laudantium asperiores unde quis quidem est? Ex ea possimus quae doloribus, nesciunt id eligendi dolore aspernatur, ut ipsum autem! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam nostrum harum at repellat debitis fuga qui, id a accusamus voluptas iste magni tempora sapiente ipsa? Eaque minus in dolores corporis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem deserunt culpa quos consectetur molestiae alias odit dicta, blanditiis voluptatum voluptatibus provident illum nostrum? Officia ex perferendis laborum tenetur eaque ut.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, alias. Reprehenderit maiores porro veritatis magni consectetur, soluta cumque corrupti nesciunt consequuntur quasi corporis distinctio, saepe tempore quos quidem incidunt repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ad consequuntur omnis blanditiis inventore eaque facere tenetur saepe amet autem eligendi, minus vitae excepturi nisi aspernatur sit beatae magnam. Deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, vitae a harum commodi ipsa eveniet corrupti fugit alias possimus officia ab odit doloremque facilis ullam quidem neque aperiam error totam.</p>
     </main>
     
 </body>
