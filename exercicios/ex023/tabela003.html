@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <h1>Tabela 1 (original)</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+    <h1>Tabela 2 (expansão de colunas [col])</h1>
+
+    <table>
+        <tr>
+            <!--AQUI PARA EXPANDIR COLUNAS TIVE QUE TIRAR UMA LETRA NESSE CASO TIREI O C, E EXPANDI O B. LEMBRANDO QUE TODA VEZ Q EU TIRAR UM ITEM O BURACO VAI SER NO FIM DA CELULA NO CASO NO CANTO DIREITO NO FINAL DA LINHA DO ITEM INDEPENDENTE DE ONDE ELE ESTÁ POSICIONADO
+            OS ITENS DE CADA COLUNA SE EXPANDEM PARA OS LADOS ESQUERDO OU DIREITO-->
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <!--AQUI PARA EXPANDIR COLUNAS TIVE QUE TIRAR UMA LETRA DA PROPRIA COLUNA, DE UM LADO OU DO OUTRO, NESSE CASO TIREI O G, E EXPANDI O H.LEMBRANDO QUE TODA VEZ Q EU TIRAR UM ITEM O BURACO VAI SER NO FIM DA CELULA NO CASO NO CANTO DIREITO NO FINAL DA LINHA DO ITEM INDEPENDENTE DE ONDE ELE ESTÁ POSICIONADO-->
+            <td colspan="2">H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <!--AQUI PARA EXPANDIR COLUNAS TIVE QUE TIRAR UMA LETRA NESSE CASO TIREI O J E O L, E EXPANDI O K.LEMBRANDO QUE TODA VEZ Q EU TIRAR UM ITEM O BURACO VAI SER NO FIM DA CELULA NO CASO NO CANTO DIREITO NO FINAL DA LINHA DO ITEM INDEPENDENTE DE ONDE ELE ESTÁ POSICIONADO-->
+            
+            <td colspan="3">K</td>
+            
+        </tr>
+    </table>
+    <h1>Tabela 3 (expansão de linhas [rowspan])</h1>
+
+    <table>
+        <tr>
+            <!--NO CASO DAS LINHAS SEMPRE VOU TER Q TIRAR UM ITEM DAS LINHAS DE BAIXO OU DE CIMA, AQUI POR EX EU TIREI O D E EXPANDI O A, LINHAS SE EXPANDEM PARA BAIXO SOMENTE-->
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+    </table>
+</body>
+</html>
